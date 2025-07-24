@@ -1,0 +1,135 @@
+
+.bb1 {
+    background-color: black;
+    background-size: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.hd1 {
+    background: none;
+    text-align: center;
+    text-shadow: 0 0 10px #2d974d, 0 0 20px #25b751, 0 0 30px #0e9b2f;
+    margin: 0;
+    
+}
+
+.nl h1 {
+    background: none;
+    text-align: center;
+    text-shadow: 0 0 10px #91e746, 0 0 20px #3bf06b, 0 0 30px #66bb2e;
+    margin: 6%;
+    margin-top: 15%;
+    size: 7px;
+
+}
+
+.TD {
+   flex-wrap: wrap;
+   justify-content: center;
+   display: flex;
+}
+
+
+.nl {
+    flex-direction: row;
+    width: 28%;
+    height: 350px;
+    padding: 12px 15px;
+    margin: 1%;
+    text-shadow:  0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    border: none;
+    box-shadow:   0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.b1 {
+    margin-top: 15%;
+    width: 10%;
+    padding: 3%;
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+    border-radius: 50%;
+    background: radial-gradient(circle, #4dcc41, #1e5721);
+    border-bottom: transparent;
+}
+
+footer {
+    margin: 1%;
+    border: 0;
+}
+
+.ico {
+    border-radius: 50%;
+    border: 0;
+    margin: 1.5%;
+    box-shadow:0 0 7px #4faa59, 0 0 15px #36ae4c, 0 0 25px #69e07b ;
+    float: right;
+}
+
+.hd2 {
+    margin: 0;
+    background-color: black;
+}
+
+/* niño landia */
+
+.bb2 {
+    margin: 0;
+    background-color: black;
+}
+
+.hb2 {
+    margin: 2%;
+    text-align: center;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.bd1 {
+    float: right;
+    width: 30px;
+    border-radius: 50px;
+
+}
+
+.nld0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nls {
+    text-align: center;
+    background-color: wheat;
+    width: auto;
+    height: auto;
+    padding: 12px 15px;
+    margin: 20px 30px;
+    border: none;
+    box-shadow:   0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    border-radius: 30px;
+    border-radius: 13px;
+}
+
+.ttt03 {
+    text-shadow:  0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    
+}
+
+.h21 {
+    text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+}
+
+.h22 {
+    text-shadow: 0 0 10px #91e746, 0 0 20px #91e746, 0 0 30px #91e746;
+}
+
+/*campeonato*/
+
+a {
+    text-decoration: none;
+}
+
