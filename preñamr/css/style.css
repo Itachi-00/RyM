@@ -1,0 +1,374 @@
+/* ===== RESET ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===== COLORES ===== */
+
+:root{
+
+    --azul-oscuro:#0f2747;
+    --azul-principal:#1d4e89;
+    --azul-claro:#4f8fe8;
+
+    --blanco:#ffffff;
+    --gris:#f4f6f8;
+
+    --sombra:0 4px 15px rgba(0,0,0,.1);
+
+}
+
+
+.header{
+
+    background:#0f2747;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 30px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+
+}
+
+.logo a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:1.5rem;
+
+    font-weight:bold;
+
+}
+
+.menu ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:20px;
+
+}
+
+.menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#7bb2ff;
+
+}
+
+
+/* ===== BODY ===== */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:var(--gris);
+
+    color:#333;
+
+    line-height:1.6;
+
+}
+
+/* ===== CONTENEDOR ===== */
+
+.pagina-grado,
+.actividad-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+/* ===== ENCABEZADO ===== */
+
+.encabezado-grado,
+.actividad-header{
+
+    background:linear-gradient(
+        135deg,
+        var(--azul-oscuro),
+        var(--azul-principal)
+    );
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    margin-bottom:30px;
+
+    box-shadow:var(--sombra);
+
+}
+
+.encabezado-grado h1,
+.actividad-header h1{
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+}
+
+/* ===== IMAGEN ===== */
+
+.encabezado-grado img{
+
+    width:100%;
+
+    max-width:600px;
+
+    border-radius:15px;
+
+    margin:20px auto;
+
+    display:block;
+
+}
+
+/* ===== BOTONES DE PERIODOS ===== */
+
+.menu-periodos{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    justify-content:center;
+
+    margin-bottom:40px;
+
+}
+
+.menu-periodos a{
+
+    background:white;
+
+    color:var(--azul-principal);
+
+    text-decoration:none;
+
+    padding:12px 25px;
+
+    border-radius:50px;
+
+    font-weight:bold;
+
+    box-shadow:var(--sombra);
+
+    transition:.3s;
+
+}
+
+.menu-periodos a:hover{
+
+    background:var(--azul-principal);
+
+    color:white;
+
+    transform:translateY(-3px);
+
+}
+
+/* ===== PERIODOS ===== */
+
+.periodo{
+
+    margin-bottom:50px;
+
+}
+
+.periodo h2{
+
+    color:var(--azul-oscuro);
+
+    margin-bottom:20px;
+
+}
+
+/* ===== TARJETAS ===== */
+
+.card,
+.actividad-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+    box-shadow:var(--sombra);
+
+    transition:.3s;
+
+}
+
+.card:hover,
+.actividad-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* ===== TITULOS ===== */
+
+.card h3,
+.actividad-card h3{
+
+    color:var(--azul-principal);
+
+    margin-bottom:15px;
+
+}
+
+/* ===== ACTIVIDADES ===== */
+
+.card ul{
+
+    list-style:none;
+
+}
+
+.card li{
+
+    margin-bottom:10px;
+
+}
+
+.card li a{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:var(--azul-claro);
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.card li a:hover{
+
+    background:var(--azul-principal);
+
+}
+
+/* ===== RECURSOS ===== */
+
+.recursos-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:15px;
+
+}
+
+.recurso{
+
+    background:var(--azul-principal);
+
+    color:white;
+
+    text-decoration:none;
+
+    text-align:center;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+}
+
+.recurso:hover{
+
+    background:var(--azul-oscuro);
+
+}
+
+/* ===== VOLVER ===== */
+
+.volver{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}
+
+.volver a{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:var(--azul-principal);
+
+    padding:12px 25px;
+
+    border-radius:50px;
+
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:768px){
+
+    .encabezado-grado h1,
+    .actividad-header h1{
+
+        font-size:2rem;
+
+    }
+
+    .pagina-grado,
+    .actividad-container{
+
+        padding:15px;
+
+    }
+
+}
